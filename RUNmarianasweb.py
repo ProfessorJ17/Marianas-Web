@@ -185,7 +185,7 @@ def simulate_hacking():
     print(f"~{random_delay}ms")
     time.sleep(random_delay / 1000)
 
-    print("hashcat -m <hash_mode> -a 3 <hash_file> ?b?b?b?b?b?b?b?b?b")
+    print("hashcat -m <hash_mode> -a 3 <hash_file> ?b?b?b?b?b?b?b?b?b hashcat -m <hash_mode> -a 3 <hash_file> ?l?u?d?l?u?d?d?l?u ")
 
     print("Connecting to Mariana's Web... ", end='')
     random_delay = random.randint(333, 3333)
